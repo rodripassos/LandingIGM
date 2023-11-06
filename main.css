@@ -1,0 +1,84 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+header img {
+    height: 120px;
+    background-color:#fff ;
+}
+
+.navbar {
+    
+    background-color:#fff ;
+}
+
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #e15f41;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio  {
+    color: #e15f41;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+#sobre-o-restaurante img {
+    width: 100%;
+   background-color: #fff;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color:rgb(122, 205, 220);
+}
+
+.text-colored {
+    color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button, .nav-link.active:hover {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    .nav-cardapio {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+    .nav-cardapio {
+        margin-right: 16px;       
+    }
+
+    .tab-content {
+        margin-left: 16px;
+    }
+}
